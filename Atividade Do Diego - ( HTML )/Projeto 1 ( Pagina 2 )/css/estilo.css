@@ -1,0 +1,66 @@
+html{
+    background: #e8e8e8;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* BARRA */
+
+.barra{
+    background: #f3f1ef;
+    position: relative;
+    width: 900px;
+    height: 45px;
+    left: 240px;
+    top: 50px;
+    box-shadow: 
+               0px 0px 0px rgba(0,0,0,0.10),
+               0px 7px 20px rgba(0,0,0,0.05),
+               0px 10px 15px rgba(0,0,0,0.05),
+               0px 10px 10px rgba(0,0,0,0.05);
+    border-radius: 3px;
+    
+}
+
+/* Conteudo da BARRA*/
+
+.conteudo ul{
+    position: relative;
+    left: 570px;
+    top: 13px;
+}
+.conteudo ul li{
+    display: inline;
+    font-size: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+    
+}
+.conteudo ul li:hover{
+    background: #bfbfbf;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    transition: 0.3s;
+}
+.conteudo ul li a:hover{
+    color: #2e3131;
+}
+.conteudo ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.lookimg{
+    position: absolute;
+    padding-left: 20px;
+}
+.lookimg img{
+    width: 35%;
+}
+h1{ 
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 2px;
+    left: 95px;
+    top: -1;
+
+}
